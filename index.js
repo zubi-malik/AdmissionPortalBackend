@@ -5,7 +5,7 @@ const cors = require("cors")
 const userRoute = require("./registration/router");
 const connectDB = require("./utils/database");
 const bodyParser = require("body-parser");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 app.use(cors())
 app.use(bodyParser.json())
